@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text">
+            <button class="search-btn"><img src="images/search.png" alt=""></button>
+            <button class="location-search-btn"><img src="images/location.png" alt=""></button>
+            <button class="switch-temp">°F</button>
+        </div>
+        <div class="error">invalid city name</div>
+        <div class="weather">
+            <div class="header">
+                <h1 class="city">Multan</h1>
+                <p class="date">21.04.2021</p>
+            </div>
+            
+            <div class="main">
+                <div class="current-weather">
+                    <p class="temp">20°</p>
+                    <div class="col">
+                        <img class="weather-icon" src="images/clouds.png" alt="">
+                        <p class="weather-condition">Cloudy</p>
+                    </div>
+                    
+                    <div class="details">
+                        <div class="col">
+                            <img class="details-condition" src="images/wind.png">
+                            <p class="wind">6.1 mph</p>
+                        </div>
+                        <div class="col">
+                            <img class="details-condition" src="images/humidity.png" alt="">
+                            <p class="humidity">90%</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="side-info">
+                    <p class="time">12:27 PM</p>
+                    <div class="small-weather">
+                        <h3 class="temp-aside">20°</h3>
+                        <p class="feels-like">Feels like 19°</p>
+                        <p class="weather-condition">Cloudy</p>
+                    </div>
+                    <h3>Hourly Forecast</h3>
+                    <div class="hourly-forecast">
+                        <div class="hour">1 PM<br>20°<br>Cloudy</div>
+                        <div class="hour">2 PM<br>21°<br>Rainy</div>
+                        <div class="hour">3 PM<br>21°<br>Rainy</div>
+                        <div class="hour">4 PM<br>20°<br>Cloudy</div>
+                        <div class="hour">5 PM<br>21°<br>Rainy</div>
+                        <div class="hour">6 PM<br>21°<br>Rainy</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Forecast 5 days</h2>
+            <div class="forecast">
+                <div>Today<br>20°<br>Mist</div>
+                <div>Tue<br>32°<br>Sunny</div>
+                <div>Wed<br>12°<br>Rainy</div>
+                <div>Thu<br>13°<br>Rainy</div>
+                <div>Fri<br>22°<br>Mist</div>
+                <div>Sat<br>22°<br>Mist</div>
+            </div>
+        </div>
+    
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

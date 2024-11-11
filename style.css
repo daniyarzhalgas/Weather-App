@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.current-weather {
+    /* background-color: red; */
+    width: 45vw;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.side-info {
+    text-align: right;
+}
+
+.hourly-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-between;
+    gap: 10px
+    ;
+}
+
+.hour {
+    padding: 5px;
+    text-align: center;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.temp{
+    font-size: 100px;
+    margin: 5vh;
+}
+.weather-icon{
+    width: 100px;
+}
+.col{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col .details-condition{
+    width: 25px;
+}
+
+.weather{
+    display: none;
+}
+.error{
+    display: none;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #f5f5f5;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+}
+
+.hour{
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.item{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    
+}
+
+.icon-condition{
+    border: 1px solid red;
+    width: 100px;
+}
